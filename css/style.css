@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header nav .logo{
+    float: left;
+  
+}
+header nav ul{
+    float: right;
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+   
+}
+.container{
+   width: 80%;
+   margin: auto;
+
+}
+header{
+    background-image: url(../foto/arxa.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+
+}
+header nav {
+    padding: 15px 0;
+}
+header nav .logo a{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600px;
+    transition: .5s;
+}
+header nav ul a{
+    color: aliceblue;
+}
+header nav ul li a{
+    font-size: 20px;
+    padding: 0 15px;
+    text-transform: capitalize;
+    transition: .5s;
+}
+.logo:hover a{
+    color: crimson;
+   
+}
+nav ul li a:hover{
+    color: crimson;
+}
+.textn{
+    text-align: center;
+    color: aliceblue;
+  
+   margin:400px auto;
+}
+.textn h1{
+    font-size: 50px;
+}
+.textn p{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.textn hr{
+    width: 60px;
+    height: 3.5px;
+    margin: 25px auto;
+    border: none;
+    background-color: crimson;
+}
+.textn a{
+    background-color: brown;
+    border-radius: 160px;
+    padding: 20px 35px;
+    color: aliceblue;
+    text-transform: capitalize;
+    font-weight: 600px;
+    text-transform: 2px;
+    transition: .7s;}
+    .textn a:hover{
+    background-color: blue;
+   
+   }
+   .clas2{
+   text-align: center;
+   background-color: coral;
+   margin:  auto;
+  
+   }
+   .clas2 p{
+    padding-bottom: 60px;
+
+   }
+   .clas2 a{
+    border-radius: 25px;
+    background-color: aliceblue;
+    padding: 20px 40px;
+    transition: .5s;
+   
+   }
+   .clas2 hr{
+    width: 70px;
+    height: 4px;
+    background-color: aliceblue;
+    margin: 15px auto;
+   
+   }
+.clas2  a:hover{
+    background-color: brown;
+}
